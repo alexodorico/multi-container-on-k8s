@@ -1,5 +1,5 @@
-apiService: v1
-kind: PersistantVolumeClaim
+apiVersion: v1
+kind: PersistentVolumeClaim
 metadata:
   name: database-persistent-volume-claim
 spec:
